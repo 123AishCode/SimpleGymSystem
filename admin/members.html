@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members</title>
+    <link rel="stylesheet" href="../styles/dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>Gym Dashboard</h2>
+            <ul>
+                <li><a href="new_entry.html">📝 New Entry</a></li>
+                <li><a href="payments.html">💳 Payments</a></li>
+                <li><a href="members.html">👥 Members</a></li>
+                <li><a href="health.html">🏥 Health Status</a></li>
+                <li><a href="plan.html">📊 Plan</a></li>
+                <li><a href="overview.html">📈 Overview</a></li>
+                <li><a href="exercise.html">🏋️ Exercise Routine</a></li>
+                <li><a href="profile.html">👤 Profile</a></li>
+                <li><a href="logout.html">🚪 Logout</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1>Members</h1>
+            <form action="#" method="POST">
+                <input type="text" name="member_name" class="input-field" placeholder="Enter Member Name" required>
+                <input type="number" name="member_age" class="input-field" placeholder="Enter Age" required>
+                <select name="membership_status" class="input-field" required>
+                    <option value="active">Active</option>
+                    <option value="inactive">Inactive</option>
+                </select>
+                <button type="submit" class="login-button">Add Member</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

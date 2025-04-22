@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Status</title>
+    <link rel="stylesheet" href="../styles/dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>Gym Dashboard</h2>
+            <ul>
+                <li><a href="new_entry.html">📝 New Entry</a></li>
+                <li><a href="payments.html">💳 Payments</a></li>
+                <li><a href="members.html">👥 Members</a></li>
+                <li><a href="health.html">🏥 Health Status</a></li>
+                <li><a href="plan.html">📊 Plan</a></li>
+                <li><a href="overview.html">📈 Overview</a></li>
+                <li><a href="exercise.html">🏋️ Exercise Routine</a></li>
+                <li><a href="profile.html">👤 Profile</a></li>
+                <li><a href="logout.html">🚪 Logout</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1>Health Status</h1>
+            <form action="#" method="POST">
+                <input type="text" name="member_name" class="input-field" placeholder="Enter Member Name" required>
+                <input type="number" name="member_height" class="input-field" placeholder="Enter Height (cm)" required>
+                <input type="number" name="member_weight" class="input-field" placeholder="Enter Weight (kg)" required>
+                <input type="text" name="health_status" class="input-field" placeholder="Enter Health Status" required>
+                <button type="submit" class="login-button">Submit Health Status</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
